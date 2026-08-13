@@ -1,0 +1,47 @@
+body {
+	font-family: sans-serif;
+	max-width: 960px;
+	padding: 24px;
+}
+
+h1 {
+	font-size: 150%;
+}
+pre {
+	font-family: "Bitstream Vera Sans", monospace;
+	padding: 24px;
+	max-width: 100%;
+	overflow-wrap: break-word;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+img {
+	display: block;
+	/*width:720px;*/
+	max-width:100%;
+	height:auto;
+}
+video {
+	display: block;
+	max-width:100%;
+	height:auto;
+	width:600px;
+}
+.footnotes {
+	font-size:80%;
+}
+.img_row {
+	display: table;
+	width:100%;
+}
+.img_wrap {
+	display:table-cell;
+	vertical-align:top;
+	padding:8px;
+	width:800px;
+}
+.img_wrap img {
+	display: block;
+	max-width:100%;
+	height:auto;
+}
