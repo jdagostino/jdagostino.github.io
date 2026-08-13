@@ -21,6 +21,22 @@ img {
 	max-width:100%;
 	height:auto;
 }
+figure {
+	margin: 24px 0;
+	text-align: center;
+}
+figure img {
+	display: block;
+	width: 100%;
+	max-width: 720px;
+	height: auto;
+	margin: 0 auto;
+}
+figcaption {
+	font-size: 85%;
+	color: #444;
+	margin-top: 8px;
+}
 video {
 	display: block;
 	max-width:100%;
