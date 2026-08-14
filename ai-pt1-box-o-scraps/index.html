@@ -57,6 +57,21 @@
 </figure>
 <p>At this point the box is pretty stable, I've tested the GPUs out, and I'm ready to really dive into how to get it to run fast, which I'll talk about in the next chapter. </p>
 <hr>
+<div>
+	<h5>UPDATE: August 14 2026</h5>
+	<p>Yesterday, this article briefly trended on both Hacker News and Bluesky, which I did not expect. I'm working on chapter 2, but here are some answers to a few questions I got.</p>
+	<dl>
+		<dt>"What case did you use?"</dt><dd> That's the <a href=https://www.silverstonetek.com/en/product/info/server-nas/rm4a/>SilverStone RM4A</a>, selected mostly because it had eight PCI card slots in the back instead of the typical seven, so I could fit the four GPUs side-by-side. It wasn't the cheapest possible case but the price wasn't too bad, I paid $262.</dd>
+		<dt>"How much did the GPUs cost?"</dt><dd> I negotiated the seller down to $350 each while I was buying four of them. Your mileage may vary, especially if you're only buying one; prices are volatile on this kind of thing right now.</dd>
+		<dt>"What other parts do you have in there?"</dt><dd> Supermicro C9X299-PGF motherboard, Intel Core i9-10900x CPU, EVGA 1600W power supply, four mismatched 32GB sticks of DDR4 RAM (this is excessive, I'll get into that next chapter), a Samsung 980 PRO NVMe drive, an Asetek AIO CPU cooler, and various fans. The fans on the GPU are Arctic S8038-10K.</dd>
+		<dt>"Don't you need a server-grade motherboard and CPU and RAM to drive four cards at once?"</dt><dd> The system's RAM is non-ECC, the CPU is a Core i9 and not a Xeon, and the motherboard says "Play Harder" on it in several places. On the other hand it's got IMPI coming out of a separate Ethernet port on the back, and it takes forever to boot. I'm not sure what you count that as.</dd>
+		<dt>"Wouldn't it have been much easier to buy a Ryzen AI Max Halo or a DGX Spark and get 128GB of RAM for the models to run that way?"</dt><dd> Oh yeah that would have been much easier, that's the smarter thing to do instead of building a frankenstein box like this. On the other hand that would have cost about twice as much money and I wouldn't have learned about multi-GPU parallelism. You can go even cheaper still by just buying API credits to Deepseek V4 Flash on OpenRouter, but that would have defeated the point a bit.</dd>
+		<dt>"Wait, did you cut through the fire barrier between your garage and living room to run Ethernet, thereby voiding your homeowner's insurance coverage?"</dt><dd> No, I ran Ethernet through the fire barrier using the box where coax cable used to be run.</dd>
+		<dt>"You should make an RSS feed."</dt><dd> Yeah I'll get to that at some point.</dd>
+		<dt>"How bad was it to be using ROCm instead of CUDA?"</dt><dd> Not as bad as you'd think! More on this next chapter.</dd>
+	</dl>
+</div>
+<hr>
 <div class=footnotes>
 <ol>
 	<li id=fn1>Download the shroud's <a href="fan_shroud_dual_v620.stl">STL file</a> and print it if you need. <a href=#l1>[back]</a></li> 
