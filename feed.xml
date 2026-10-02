@@ -10,35 +10,35 @@
 	<item>
 		<title>How To Use AI To Write Good Code (Slowly)</title>
 		<link>https://jdagostino.github.io/slowly/index.html</link>
-		<guid>slowly</guid>
+		<guid isPermaLink="false">slowly</guid>
 		<pubDate>Fri, 02 Oct 2026 09:00:00 -0700</pubDate>
 		<description>The new AI coding agent tools have led to the biggest change in the practice of software development since the invention of the compiler. We've all seen examples of how to use these tools to write rough, sloppy code quickly, code that runs without any human being having ever read it, and while there are plenty of legitimate uses for that (experimental prototypes, UI mockups, internal tools, one-off test harnessing) it's clear that development of highly reliabile systems (such as satellite flight software, where I spend most of my professional time) need a different approach.</description>
 	</item>
 	<item>
 		<title>AI At Home Part 2: Multi-GPU Drifting</title>
 		<link>https://jdagostino.github.io/ai-pt2-multi-gpu-drifting/index.html</link>
-		<guid>ai-pt2-multi-gpu-drifting</guid>
+		<guid isPermaLink="false">ai-pt2-multi-gpu-drifting</guid>
 		<pubDate>Thu, 20 Aug 2026 09:00:00 -0700</pubDate>
 		<description>In the last chapter I built a ridiculous home server out of e-waste-grade GPUs to run AI language models. Here, I'll be talking about what I needed to do to squeeze some kind of reasonable performance out of this kind of setup. (This is going to be using existing code and techniques, messing around with llama.cpp settings and so on; writing new ROCm kernels is out of scope for this chapter).</description>
 	</item>
 	<item>
 		<title>AI At Home Part 1: A Box Of Scraps</title>
 		<link>https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html</link>
-		<guid>ai-pt1-box-o-scraps</guid>
+		<guid isPermaLink="false">ai-pt1-box-o-scraps</guid>
 		<pubDate>Thu, 13 Aug 2026 09:00:00 -0700</pubDate>
 		<description>It's an interesting time to be a software dev; the transformer large language model is, in my opinion, the first really new and interesting technological development in the field in a long time. AI coding agents built on this have rapidly become core to working in this profession, and the feeling is kind of like going from doing woodworking with hand tools to using power tools, for better or for worse.</description>
 	</item>
 	<item>
 		<title>Fly A Cellphone Camera From A Kite</title>
 		<link>https://jdagostino.github.io/kite_pics/index.html</link>
-		<guid>kite_pics</guid>
+		<guid isPermaLink="false">kite_pics</guid>
 		<pubDate>Sun, 30 May 2021 09:00:00 -0800</pubDate>
-		<description>In the middle of last year's pandemic, I got myself a 3d <!--prooonter-->printer; there was a good deal going on. Somewhere on the vague "list of future projects" that I keep in my head, I decided I wanted to 3d print a drone. Well, I'll get to that eventually, but you know what I already have on hand? An old cell phone and a kite from the dollar store. Let's see if I can get some aerial beach photos with that!</description>
+		<description>In the middle of last year's pandemic, I got myself a 3d printer; there was a good deal going on. Somewhere on the vague "list of future projects" that I keep in my head, I decided I wanted to 3d print a drone. Well, I'll get to that eventually, but you know what I already have on hand? An old cell phone and a kite from the dollar store. Let's see if I can get some aerial beach photos with that!</description>
 	</item>
 	<item>
 		<title>Build a Subwoofer</title>
 		<link>https://jdagostino.github.io/subwoofer/index.html</link>
-		<guid>subwoofer</guid>
+		<guid isPermaLink="false">subwoofer</guid>
 		<pubDate>Mon, 01 Mar 2021 09:00:00 -0800</pubDate>
 		<description>Back in the day I set up a home theater system, with a subwoofer. It broke during a move, and then I fixed it, and then it broke again, and it sat there doing nothing for three and a half years and then the next time I moved it went in the garbage.</description>
 	</item>
